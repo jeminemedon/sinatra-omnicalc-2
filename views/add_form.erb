@@ -1,12 +1,11 @@
-<h1>New addition</h1>
+<h1>Addition</h1>
 
-<form action="/wizard_add">
-  <label for="form_first_number">
-    Add this:
-  </label>
-  <input id="form_first_number" name="first_number" text="text">
+<form action="/add_result" method="get">
+  <label for="first_num">Add this:</label>
+  <input id="first_num" name="first_num" type="text">
 
-  <button>
-    Add!
-  </button>
+  <label for="second_num">to this:</label>
+  <input id="second_num" name="second_num" type="text">
+
+  <button>Add!</button>
 </form>
